@@ -108,6 +108,19 @@
             border-left: 5px solid #2E5BFF;
         }
 
+        .plan-card {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 5px solid #2E5BFF;
+        }
+
+        .plan-card h3 {
+            margin-top: 0;
+            color: #2E5BFF;
+        }
+
         .contact-info {
             background-color: #f8f9fa;
             padding: 20px;
@@ -122,6 +135,10 @@
             border-top: 2px solid #87CEEB;
             color: #000000;
         }
+
+        .emoji {
+            font-size: 1.2em;
+        }
     </style>
 </head>
 <body>
@@ -130,7 +147,7 @@
 
         <header>
             <h1>Conditions Générales d'Utilisation</h1>
-            <p class="date">Dernière mise à jour : 18 novembre 2025</p>
+            <p class="date">Dernière mise à jour : 20 novembre 2025</p>
         </header>
 
         <section>
@@ -296,27 +313,172 @@
         </section>
 
         <section>
-            <h2>8. Abonnements et Paiements</h2>
+            <h2>8. Politique d'Abonnement & Usage Raisonnable</h2>
 
-            <h3>8.1.</h3>
-            <p>MyAdmin IA propose plusieurs formules d'abonnement (Gratuit, Starter, Pro, Business, Entreprise) avec des fonctionnalités et limites différentes.</p>
+            <h3>8.1. Principe de l'Offre</h3>
+            <p>MyAdmin IA utilise des technologies avancées de pointe dont les coûts d'infrastructure sont élevés :</p>
+            <ul>
+                <li>Reconnaissance optique de caractères (OCR) pour l'extraction de texte depuis vos documents</li>
+                <li>Intelligence artificielle générative pour l'analyse et l'assistance personnalisée</li>
+            </ul>
+            <p>Pour maintenir des tarifs accessibles aux particuliers, l'utilisation des services est encadrée par une <strong>Politique d'Usage Raisonnable (Fair Use Policy)</strong>.</p>
 
-            <h3>8.2.</h3>
+            <h3>8.2. Définition des Termes d'Usage</h3>
+            <p>Les termes <strong>"Usage Découverte"</strong>, <strong>"Usage Quotidien"</strong> et <strong>"Usage Intensif"</strong> sont des indicateurs de confort d'utilisation destinés à guider l'utilisateur dans le choix de son abonnement.</p>
+            <div class="important-box">
+                <p><strong>Important :</strong> Ces termes ne constituent pas un engagement de fourniture de ressources informatiques illimitées. Chaque plan comprend des plafonds de sécurité pour garantir la stabilité du service pour tous.</p>
+            </div>
+
+            <h3>8.3. Quotas Mensuels & Limites Techniques</h3>
+            <p>Chaque plan inclut des plafonds de sécurité calculés mensuellement. En cas de dépassement, l'accès aux services concernés peut être temporairement restreint jusqu'au renouvellement mensuel de votre abonnement.</p>
+
+            <div class="plan-card">
+                <h3><span class="emoji">🆓</span> Plan DÉCOUVERTE (Gratuit)</h3>
+                <p><strong>Cible :</strong> Découverte technique et test de l'application</p>
+                <p><strong>Plafonds inclus :</strong></p>
+                <ul>
+                    <li>📄 <strong>OCR :</strong> 3 documents/mois</li>
+                    <li>💬 <strong>Chat IA :</strong> 10 échanges/mois</li>
+                    <li>📊 <strong>Analyse IA :</strong> Analyses découverte</li>
+                    <li>📧 <strong>Emails :</strong> 10 réceptions/mois</li>
+                    <li>☁️ <strong>Stockage :</strong> 100 Mo</li>
+                </ul>
+            </div>
+
+            <div class="plan-card">
+                <h3><span class="emoji">🏠</span> Plan STARTER - 2,99€/mois (Usage Quotidien)</h3>
+                <p><strong>Cible :</strong> Gestion administrative personnelle standard (factures courantes, documents d'identité, courriers administratifs)</p>
+                <p><strong>Plafonds inclus :</strong></p>
+                <ul>
+                    <li>📄 <strong>OCR :</strong> 20 documents/mois</li>
+                    <li>💬 <strong>Chat IA :</strong> 100 échanges/mois (usage humain standard)</li>
+                    <li>📊 <strong>Analyse IA :</strong> Réponses IA standards (analyses classiques, réponses concises adaptées à un usage quotidien)</li>
+                    <li>📧 <strong>Emails :</strong> Réceptions standards (80/mois)</li>
+                    <li>☁️ <strong>Stockage :</strong> 1 Go</li>
+                </ul>
+            </div>
+
+            <div class="plan-card">
+                <h3><span class="emoji">👑</span> Plan PREMIUM - 6,90€/mois (Usage Intensif)</h3>
+                <p><strong>Cible :</strong> Gestion administrative complexe (dossiers immobiliers, famille nombreuse, projets de construction/travaux, activité professionnelle légère)</p>
+                <p><strong>Plafonds inclus :</strong></p>
+                <ul>
+                    <li>📄 <strong>OCR :</strong> 100 documents/mois</li>
+                    <li>💬 <strong>Chat IA :</strong> 500 échanges/mois (usage soutenu)</li>
+                    <li>📊 <strong>Analyse IA :</strong> Réponse IA pro (analyses approfondies, réponses détaillées, traitement prioritaire des requêtes complexes)</li>
+                    <li>📧 <strong>Emails :</strong> Réceptions prioritaires (500/mois)</li>
+                    <li>☁️ <strong>Stockage :</strong> 2 Go</li>
+                </ul>
+            </div>
+
+            <div class="plan-card">
+                <h3><span class="emoji">🏢</span> Plan ENTREPRISE (Sur Devis)</h3>
+                <p><strong>Cible :</strong> Professionnels, TPE, associations avec besoins spécifiques</p>
+                <p><strong>Avantages :</strong></p>
+                <ul>
+                    <li>Quotas personnalisés selon vos besoins</li>
+                    <li>Support prioritaire dédié</li>
+                    <li>Facturation adaptée</li>
+                    <li>Fonctionnalités avancées sur demande</li>
+                </ul>
+                <p>📞 <strong>Contact :</strong> <a href="mailto:support@mail.myadminia.com">support@mail.myadminia.com</a></p>
+            </div>
+
+            <h3>8.4. Évolution de l'Offre & Nouveaux Services</h3>
+            <p>MyAdmin IA est une application en constante évolution. De nouveaux plans et services premium seront proposés progressivement pour répondre aux besoins spécifiques de nos utilisateurs.</p>
+
+            <div class="plan-card">
+                <h3><span class="emoji">🎓</span> MyAdmin IA Expert (Disponible courant 2026)</h3>
+                <p><strong>Service d'accompagnement premium avec intervention humaine :</strong></p>
+                <ul>
+                    <li>👤 <strong>Accompagnement personnalisé :</strong> Un expert MyAdmin IA dédié à votre situation</li>
+                    <li>🎓 <strong>Intervention d'un expert MyAdmin IA :</strong> Assistance directe sur vos dossiers complexes</li>
+                    <li>📞 <strong>Assistance dédiée et formation :</strong> Support prioritaire et formation à l'usage de l'application</li>
+                    <li>🚀 <strong>Gestion complète de vos dossiers complexes :</strong> Prise en charge de bout en bout de vos démarches administratives</li>
+                </ul>
+                <p><strong>Tarif :</strong> Sur devis selon vos besoins<br>
+                <strong>Notification :</strong> Bouton "Être notifié" disponible dans l'application</p>
+            </div>
+
+            <div class="plan-card">
+                <h3><span class="emoji">🏢</span> Forfaits Business (À venir)</h3>
+                <p>Solutions avancées pour professionnels, TPE et associations avec besoins spécifiques. Plus d'informations prochainement.</p>
+            </div>
+
+            <p>Les abonnés existants bénéficieront d'offres prioritaires lors du lancement de ces nouveaux services.</p>
+
+            <h3>8.5. Clause de Sauvegarde Anti-Abus</h3>
+            <p>L'utilisation automatisée (robots, scripts, intégrations non autorisées), le partage de compte entre plusieurs utilisateurs, ou toute activité visant à contourner les limites d'usage est strictement interdite.</p>
+            <p>MyAdmin IA se réserve le droit de suspendre temporairement ou définitivement tout compte présentant :</p>
+            <ul>
+                <li>Une consommation anormale (dépassement répété et volontaire des plafonds)</li>
+                <li>Un usage non conforme aux Conditions Générales d'Utilisation</li>
+                <li>Une activité nuisant à la stabilité du service pour les autres utilisateurs (spam, surcharge)</li>
+            </ul>
+            <p><strong>En cas de suspension :</strong> Aucun remboursement ne sera effectué pour la période en cours.</p>
+
+            <h3>8.6. Notification & Transparence d'Usage</h3>
+            <p>Pour vous aider à gérer votre consommation, MyAdmin IA vous informe de votre usage via :</p>
+            <ul>
+                <li>Notifications in-app lorsque vous approchez vos plafonds mensuels (à 80% et 100%)</li>
+                <li>Messages d'information lors de l'atteinte temporaire d'un plafond</li>
+                <li>Suggestions de plan adapté si votre usage dépasse régulièrement votre abonnement actuel</li>
+            </ul>
+            <p><strong>Objectif :</strong> Vous permettre d'anticiper et de choisir le plan le plus adapté à vos besoins réels.</p>
+
+            <h3>8.7. Renouvellement des Quotas</h3>
+            <p>Les compteurs d'usage (OCR, IA, emails) sont remis à zéro à la date anniversaire mensuelle de votre abonnement.</p>
+            <p><strong>Important :</strong> Aucun report de quota non utilisé n'est possible d'un mois sur l'autre. Si vous n'utilisez pas vos 100 documents Premium en janvier, ils ne s'ajoutent pas aux 100 de février.</p>
+
+            <h3>8.8. Droit de Modification des Tarifs et Quotas</h3>
+            <p>MyAdmin IA se réserve le droit d'ajuster les plafonds techniques, les fonctionnalités et les tarifs pour garantir la viabilité économique du service.</p>
+            <p><strong>Garanties pour les abonnés :</strong></p>
+            <ul>
+                <li>Préavis de 30 jours pour toute modification substantielle</li>
+                <li>Notification par email et dans l'application</li>
+                <li>Maintien des conditions actuelles jusqu'à la prochaine date de renouvellement de votre abonnement</li>
+                <li>Possibilité de résilier sans frais avant l'application des nouveaux tarifs</li>
+            </ul>
+
+            <h3>8.9. Cas Exceptionnels & Support</h3>
+            <p>Nous comprenons que certaines situations peuvent nécessiter un dépassement ponctuel de vos quotas (déménagement, création d'entreprise, contrôle fiscal, etc.).</p>
+            <p><strong>Pour ces cas particuliers :</strong></p>
+            <ul>
+                <li>Contactez notre support à <a href="mailto:support@mail.myadminia.com">support@mail.myadminia.com</a></li>
+                <li>Expliquez brièvement votre besoin exceptionnel</li>
+                <li>Nous étudierons la possibilité d'un ajustement temporaire ou d'options complémentaires</li>
+            </ul>
+            <p><strong>Exemples d'options complémentaires (tarifs indicatifs) :</strong></p>
+            <ul>
+                <li>Pack +10 documents OCR : 1,49€</li>
+                <li>Pack +50 échanges IA : 0,99€</li>
+            </ul>
+
+            <h3>8.10. Paiements et Abonnements</h3>
             <p>Les prix et conditions sont disponibles dans l'application. L'Éditeur se réserve le droit de les modifier à tout moment, avec notification préalable de 30 jours.</p>
-
-            <h3>8.3.</h3>
             <p>Les paiements sont sécurisés et gérés par des prestataires tiers conformes PCI-DSS.</p>
-
-            <h3>8.4.</h3>
             <p>Les abonnements payants sont tacitement reconductibles. Vous pouvez résilier à tout moment depuis votre compte.</p>
-
-            <h3>8.5.</h3>
             <p>Aucun remboursement ne sera effectué pour une période d'abonnement déjà entamée, sauf obligation légale.</p>
 
-            <h3>8.6. Droit de rétractation :</h3>
-            <p>Conformément à l'article L.221-18 du Code de la consommation, vous disposez d'un délai de 14 jours à compter de la souscription pour exercer votre droit de rétractation, sans avoir à justifier de motifs ni à payer de pénalités.</p>
-            <p>Pour exercer ce droit, contactez : <a href="mailto:contact@mail.myadminia.com">contact@mail.myadminia.com</a>.</p>
-            <p><strong>Exception :</strong> Si vous utilisez le service avant l'expiration du délai de 14 jours, vous renoncez expressément à votre droit de rétractation pour la période d'utilisation.</p>
+            <h3>8.11. Droit de Rétractation</h3>
+            <p>Conformément aux articles L221-18 et suivants du Code de la consommation, vous disposez d'un délai de 14 jours à compter de la souscription pour exercer votre droit de rétractation sans avoir à justifier de motifs ni à payer de pénalités.</p>
+            <p><strong>Pour exercer ce droit :</strong></p>
+            <ul>
+                <li>Contactez-nous à <a href="mailto:support@mail.myadminia.com">support@mail.myadminia.com</a></li>
+                <li>Ou utilisez le formulaire de rétractation disponible dans l'application</li>
+            </ul>
+            <p><strong>Remboursement :</strong> En cas de rétractation, vous serez remboursé intégralement sous 14 jours maximum.</p>
+            <p><strong>Exception :</strong> Si vous utilisez pleinement les services pendant la période de rétractation (par exemple, scanner 100 documents en 3 jours), vous acceptez de renoncer partiellement à ce droit et seul un remboursement au prorata pourra être effectué.</p>
+
+            <h3>8.12. Droit Applicable & Médiation (Abonnements)</h3>
+            <p>Les présentes Conditions d'Utilisation sont régies par le droit français. En cas de litige, et après échec d'une tentative de résolution amiable, les tribunaux français seront seuls compétents.</p>
+            <p><strong>Médiation :</strong> Conformément à l'article L.612-1 du Code de la consommation, en cas de litige, vous pouvez recourir gratuitement au médiateur de la consommation suivant :</p>
+            <div class="contact-info">
+                <p><strong>CM2C - Centre de Médiation de la Consommation de Conciliateurs de Justice</strong><br>
+                14 rue Saint Jean - 75017 PARIS<br>
+                Email : <a href="mailto:cm2c@cm2c.net">cm2c@cm2c.net</a><br>
+                Site web : <a href="https://www.cm2c.net" target="_blank">https://www.cm2c.net</a></p>
+            </div>
         </section>
 
         <section>
@@ -384,24 +546,32 @@
         </section>
 
         <section>
-            <h2>13. Contact</h2>
-            <p>Pour toute question relative aux CGU ou au service :</p>
+            <h2>13. Contact & Assistance</h2>
+            <p>Pour toute question concernant :</p>
+            <ul>
+                <li>Votre usage et vos quotas</li>
+                <li>Le choix du plan adapté à vos besoins</li>
+                <li>Une demande de dépassement exceptionnel</li>
+                <li>Les nouveaux services à venir (Expert, Business)</li>
+            </ul>
 
             <div class="contact-info">
-                <p><strong>Support technique :</strong> <a href="mailto:support@mail.myadminia.com">support@mail.myadminia.com</a><br>
-                <strong>Protection des données (RGPD) :</strong> <a href="mailto:contact@mail.myadminia.com">contact@mail.myadminia.com</a><br>
-                <strong>Horaires :</strong> Lundi - Dimanche, 18h - 22h (heure de Paris).</p>
+                <p><strong>Contactez-nous :</strong><br>
+                📧 Email : <a href="mailto:support@mail.myadminia.com">support@mail.myadminia.com</a><br>
+                📱 Support in-app : Menu > Aide & Support</p>
             </div>
         </section>
 
         <div class="important-box">
             <p><strong>En utilisant MyAdmin IA, vous reconnaissez avoir lu, compris et accepté l'intégralité des présentes Conditions Générales d'Utilisation.</strong></p>
+            <p>Dernière mise à jour : <strong>20 novembre 2025</strong><br>
+            Version : <strong>2.0</strong></p>
         </div>
 
         <footer>
             <p>© 2025 MyAdmin IA - Tous droits réservés</p>
             <p>Marque déposée INPI n°5194466 | SIREN 993961184</p>
-            <p><a href="index.html">← Retour à l'accueil</a> | <a href="privacy-policy.html">Politique de Confidentialité</a> | <a href="https://myadmina.com">www.myadmina.com</a></p>
+            <p><a href="index.html">← Retour à l'accueil</a> | <a href="privacy-policy.html">Politique de Confidentialité</a> | <a href="https://myadminia.com">www.myadminia.com</a></p>
         </footer>
     </div>
 </body>
