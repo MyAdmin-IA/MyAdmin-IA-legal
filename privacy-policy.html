@@ -136,7 +136,7 @@
 
         <header>
             <h1>Politique de Confidentialité</h1>
-            <p class="date">Dernière mise à jour : 21 février 2026 — Version 3.0</p>
+            <p class="date">Dernière mise à jour : 25 février 2026 — Version 3.1</p>
         </header>
 
         <!-- INTRODUCTION -->
@@ -359,6 +359,34 @@
 
             <h3>4.3. Traitement automatisé</h3>
             <p>Vos documents sont traités de manière automatisée par nos algorithmes d'IA (Mistral AI et Google Vision). <strong>Aucun humain n'accède à vos documents.</strong> Le traitement s'effectue à l'instant T pour vous fournir les résultats, et les données de traitement ne sont pas conservées au-delà de la génération du résultat.</p>
+
+            <h3>4.4. Anonymisation automatique des données personnelles</h3>
+            <p>MyAdmin IA intègre un mécanisme d'anonymisation automatique de vos données personnelles <strong>avant tout traitement par l'intelligence artificielle Mistral AI</strong>. Les catégories de données automatiquement masquées sont :</p>
+            <ul>
+                <li>Numéros de sécurité sociale</li>
+                <li>Numéros IBAN et codes BIC/SWIFT</li>
+                <li>Numéros de téléphone</li>
+                <li>Adresses e-mail</li>
+                <li>Numéros de compte bancaire</li>
+            </ul>
+            <p>Ce traitement s'applique à tous les documents dont le texte est extractible : PDF texte, DOCX, ainsi que les documents scannés ou photographiés après extraction du texte par reconnaissance optique de caractères (OCR via Google Cloud Vision, hébergé en Europe).</p>
+            <p>Dans le cas rare où un document ne peut être lu que sous forme d'image (échec de l'extraction de texte), l'analyse est effectuée directement par le moteur de vision IA sans anonymisation préalable.</p>
+
+            <div class="important-box">
+                <p><strong>Résultat :</strong> Dans la grande majorité des cas, Mistral AI ne voit jamais vos données personnelles sensibles. Elles sont remplacées par des marqueurs anonymes (ex : [N°SÉCU MASQUÉ], [IBAN MASQUÉ]) avant transmission.</p>
+            </div>
+
+            <h3>4.5. Avertissements légaux intégrés</h3>
+            <p>Chaque analyse générée par MyAdmin IA est accompagnée d'un <strong>avertissement légal adapté</strong> au domaine concerné :</p>
+            <ul>
+                <li><strong>Santé :</strong> l'analyse ne constitue pas un avis médical, un diagnostic ou une prescription.</li>
+                <li><strong>Juridique :</strong> l'analyse ne constitue pas un conseil juridique.</li>
+                <li><strong>Fiscal :</strong> l'analyse ne remplace pas un conseil fiscal professionnel.</li>
+                <li><strong>Paie :</strong> l'analyse est indicative, en cas de doute contacter son service RH.</li>
+                <li><strong>Facture :</strong> vérifier les montants auprès de l'émetteur avant tout paiement.</li>
+                <li><strong>Général :</strong> l'analyse est générée par IA à titre indicatif.</li>
+            </ul>
+            <p>L'utilisateur reconnaît que MyAdmin IA est un <strong>outil d'aide à la compréhension</strong> et ne se substitue en aucun cas à un professionnel qualifié (médecin, avocat, expert-comptable, notaire, etc.).</p>
         </section>
 
         <!-- SECTION 5 -->
@@ -536,6 +564,7 @@
                 <li>Respecter vos droits RGPD.</li>
                 <li>Ne jamais vendre vos données.</li>
                 <li>Héberger vos données en Europe.</li>
+                <li>Anonymiser automatiquement vos données personnelles avant traitement IA.</li>
                 <li>Répondre rapidement à vos demandes.</li>
             </ul>
 
@@ -596,7 +625,7 @@
 
         <div class="important-box">
             <p><strong>En utilisant MyAdmin IA, vous reconnaissez avoir lu et compris cette Politique de Confidentialité.</strong></p>
-            <p>Version 3.0 — 21 février 2026<br>
+            <p>Version 3.1 — 25 février 2026<br>
             © 2025-2026 MyAdmin IA — Tous droits réservés<br>
             Marque déposée INPI n°5194466 | SIREN 993961184</p>
         </div>
